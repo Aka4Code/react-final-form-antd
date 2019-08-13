@@ -17,6 +17,7 @@ import Locale from "./Locale";
 
 import {
   TextField,
+  TextAreaField,
   NumberField,
   SliderField,
   SwitchField,
@@ -44,7 +45,6 @@ const options = [
 const modes = ["default", "combobox", "multiple", "tags"];
 
 const commonProps = {
-  name: "kek2",
   name: "kek2",
   validate: v => (v ? "" : "Required")
 };
